@@ -69,7 +69,6 @@ class CategoryMenuPage extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               onTap: () {
-                // Tindakan yang diambil saat menu About ditekan
                 showDialog(
                   context: context,
                   builder: (BuildContext context) {
